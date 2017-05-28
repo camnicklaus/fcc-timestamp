@@ -4,9 +4,9 @@ var port = process.env.port || 8080;
 var moment = require("moment");
 
 
-app.get('/', function(req, res) {
-    res.send('please add a date to the url')
-})
+// app.get('/', function(req, res) {
+//     res.send('please add a date to the url')
+// })
 
 app.get('/:timeinput', function (req, res) {
   

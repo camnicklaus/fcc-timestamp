@@ -12,6 +12,9 @@
   "dependencies": {
     "express": "^4.15.3",
     "moment": "^2.18.1",
+    "engines": {
+      "node": "4.7.3"
+    }
   },
   "devDependencies": {},
   "repository": {
